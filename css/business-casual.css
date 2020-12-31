@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Lora';
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg4.jpg");
+  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -75,7 +75,7 @@ p {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: rgba(33, 37, 41, 0.7);
   font-family: 'Raleway';
 }
 
@@ -88,12 +88,19 @@ p {
   font-weight: 800;
 }
 
+#mainNav .navbar-nav .nav-item.active .nav-link {
+  color: #e6a756;
+}
+
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: rgba(255, 255, 255, 0.4);
+  }
+  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+    color: #e6a756;
   }
 }
 
