@@ -1,5 +1,5 @@
 #mainNav {
-  background-color: fade-out($gray-900, 0.3);
+  background-color:$gray-900;
   @include heading-font;
   .navbar-brand {
     color: $gray-900;
@@ -11,11 +11,11 @@
 
         font-weight: 800;
       }
-      &.active {
-        .nav-link {
-          color: $primary;
-        }
-      }
+      // &.active {
+      //   .nav-link {
+      //     color: $primary;
+      //   }
+      // }
     }
   }
   @media (min-width: 992px) {
@@ -27,11 +27,11 @@
             color: fade-out($white, 0.6);
           }
         }
-        &.active {
-          .nav-link:hover {
-            color: $primary;
-          }
-        }
+        // &.active {
+        //   .nav-link:hover {
+        //     color: $primary;
+        //   }
+        // }
       }
     }
   }

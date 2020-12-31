@@ -75,7 +75,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(33, 37, 41, 0.7);
+  background-color: #212529;
   font-family: 'Raleway';
 }
 
@@ -88,19 +88,12 @@ p {
   font-weight: 800;
 }
 
-#mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
-}
-
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: rgba(255, 255, 255, 0.4);
-  }
-  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
   }
 }
 
@@ -227,6 +220,15 @@ p {
 
 .footer {
   background-color: rgba(33, 37, 41, 0.9);
+}
+
+a {
+  color: #adb5bd;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
 }
 
 .text-primary {

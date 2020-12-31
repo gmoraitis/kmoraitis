@@ -1,3 +1,10 @@
 .footer {
   background-color: fade-out($gray-900, 0.1);
 }
+a{
+  color:$gray-500;
+  &:hover {
+    color: fade-out($white, 0.6);
+    text-decoration:none;
+  }
+}
