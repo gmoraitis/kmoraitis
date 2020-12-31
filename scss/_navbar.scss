@@ -1,5 +1,5 @@
 #mainNav {
-  background-color:fade-out($gray-900, 0.3);
+  background-color:fade-out($gray-900, 0.1);
   @include heading-font;
   .navbar-brand {
     color: $gray-900;

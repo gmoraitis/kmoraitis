@@ -40,7 +40,8 @@ p {
 .site-heading .site-heading-upper {
   display: block;
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 400;
+  margin-top: 1rem;
 }
 
 .site-heading .site-heading-lower {
@@ -66,7 +67,7 @@ p {
 
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: 100;
 }
 
@@ -75,7 +76,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(33, 37, 41, 0.7);
+  background-color: rgba(33, 37, 41, 0.9);
   font-family: 'Raleway';
 }
 
